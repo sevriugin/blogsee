@@ -1,0 +1,13 @@
+<div class="post">
+  <% if (short) { %>
+  <div class="post-header d-flex justify-content-center">
+    <h5 class="post-title"><%= post.title %> <sub> <a class="more-link post-id" href="post/<%=post.id%>"><%= post.id %></a></sub></h5>
+    <p class="post-date ml-auto"><%= post.date %></p>
+  </div>
+
+    <p class="post-content post-content-short"><%= post.short() %><a class="more-link" href="post/<%=post.id%>">➠</a></p>
+  <% } else { %>
+    <p class="post-content"><%= post.content %></p>
+    <p class="post-date mr-auto"><%= post.date %></p>
+  <% } %>
+</div>

@@ -1,3 +1,55 @@
 body {
   background-color: #eeeeee;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-weight: 200;
+  font-family: 'Montserrat Alternates', sans-serif;
+  margin-bottom: 25px;
+}
+
+sub {
+  font-weight: 200;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 0.5rem;
+}
+
+.navbar {
+  font-family: 'Unica One', cursive;
+}
+
+.content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.post {
+  margin-bottom: 25px;
+}
+
+.post-date {
+  font-weight: 200;
+  font-size: 0.8rem;
+  color: grey;
+  margin-right: 15px;
+  margin-top: 6px;
+}
+
+.more-link {
+  color: grey;
+  margin-left: 10px;
+}
+
+.more-link:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.post-id {
+  margin-left: 0;
+}
+
+.save {
+  color: #ffff;
 }

@@ -1,0 +1,11 @@
+<%- include("partials/header") -%>
+
+<%- include("partials/navbar", {home: "active", about: "", contact:""}) -%>
+
+<div class="container content">
+
+<h1><%= title %></h1>
+
+<%- include('partials/post', { post, short: false }); %>
+
+<%- include("partials/footer") -%>
